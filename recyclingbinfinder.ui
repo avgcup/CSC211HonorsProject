@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RecyclingBinFinder</class>
+ <widget class="QWidget" name="RecyclingBinFinder">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>801</width>
+    <height>285</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>RecyclingBinFinder</string>
+  </property>
+  <widget class="QTextBrowser" name="displayWindow">
+   <property name="geometry">
+    <rect>
+     <x>125</x>
+     <y>22</y>
+     <width>651</width>
+     <height>241</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>24</x>
+     <y>23</y>
+     <width>95</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="manButton">
+      <property name="text">
+       <string>Manhattan</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="qnsButton">
+      <property name="text">
+       <string>Queens</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="bkButton">
+      <property name="text">
+       <string>Brooklyn</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="bxButton">
+      <property name="text">
+       <string>Bronx</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="siButton">
+      <property name="text">
+       <string>Staten Is.</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="homeButton">
+      <property name="text">
+       <string>Home</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
